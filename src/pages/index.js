@@ -11,8 +11,10 @@ const IndexPage = () => {
       allContentfulUser {
         nodes {
           id
-          name
-          age
+          headerImage
+          title
+          body
+          slug
         }
       }
     }
